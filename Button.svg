@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="114px" height="54px" viewBox="0 0 114 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0259A6" offset="0%"></stop>
+            <stop stop-color="#032B81" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-105.000000, -143.000000)">
+            <g id="Button" transform="translate(105.000000, 143.000000)">
+                <rect id="Rectangle-2" fill="url(#linearGradient-1)" x="0" y="0" width="114" height="54" rx="10"></rect>
+                <text id="Submit" font-family="GoogleSans-Bold, Google Sans" font-size="16" font-weight="bold" letter-spacing="-0.2695312" fill="#FFFFFF">
+                    <tspan x="31" y="32">Submit</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,152 @@
+body {
+    font-family: "Slabo+27px", Saira, sans-serif;
+    padding: 10px;
+}
+
+/*Navigation*/
+ul {
+    display: flex;
+    flex-direction: row;
+}
+li {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+@keyframes bounceIn {
+     0% {
+         transform: scale(0.1);
+         opacity: 0;
+     }
+     60% {
+         transform: scale(2);
+         opacity: 1;
+     }
+     100% {
+         transform: scale(1);
+     }
+ }
+
+@keyframes bounceInTwo {
+    0% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+    50% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes bounceInThree {
+    0% {
+        transform: scale(0.7);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#main-container {
+    direction: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+
+h1 {
+    font-size: 3em;
+    animation: bounceIn 2s;
+    /*background-color: red;*/
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    animation: bounceIn 2s ease-in-out;
+    /*background-color: red;*/
+    text-align: center;
+}
+
+.bounceIn {
+    margin: 1em auto;
+    font-weight: 900;
+    font-size: 4em;
+    animation: bounceInTwo 2s;
+}
+
+.bounceInTwo {
+    cursor: pointer;
+    animation: bounceInTwo 1s ;
+}
+
+.bounceInThree {
+    width: 90px;
+    height: 45px;
+    background: linear-gradient(#0259A6, #032B81);
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin: 2em auto;
+    font-weight: 500;
+    cursor: pointer;
+    animation: bounceInThree 1s;
+}
+
+.bounceInThree:hover {
+    background: linear-gradient(#001A53, #001A53);
+}
+
+.easeIn {
+    margin: 2em auto;
+    animation: bounceIn 2s ease-in 2s 2 alternate;
+}
+
+/*Circles*/
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #4FC0FC;
+    border-radius: 50%;
+    margin: 40px 0;
+}
+
+@keyframes slide {
+    0% {
+        transform: translate(0px, 0px) scale(1);
+    }
+    20% {
+        transform: translate(800px, 0px) scale(2);
+        opacity: 0.5;
+        background-color: crimson;
+    }
+    100% {
+        transform: translate(0px, 0px) scale(1);
+    }
+}
+
+#myCircle {
+    animation: slide 4s infinite;
+}
+
+@keyframes slideOne {
+    0% {
+        transform: translate(200px, 0px);
+    }
+    60% {
+        transform: translate(800px, 0px);
+    }
+    100% {
+        transform: translate(200px, 0px);
+    }
+}
+
+#myCircleOne {
+    animation: slideOne 4s infinite;
+}
